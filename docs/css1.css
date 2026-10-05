@@ -1,0 +1,112 @@
+        /* Div que le da formato a la linea (hr) */
+         
+        .linea{
+            background-color: #1e293b;
+            height: 4px;
+        }    
+
+        /* Div que da el formato de los botones del sidebar */
+     
+        .boton {
+        background-color: #1e293b; 
+        color : #ffffff;
+        text-decoration: none;              
+        border: none;            
+        padding: 5px 5px;   
+        font-size: 20px;  
+        font-weight: bold;       
+        cursor: pointer;     
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+        width: 100%;  
+        }
+        /* Div que da el formato de los botones del sidebar */
+        .boton:hover {
+            background-color: #3f567b; 
+        }
+        
+        /* Centra la tabla en la página */
+        .headerTable {
+        margin: 0 auto;
+        position: relative;
+        background-color: #1e293b;
+        border-collapse: collapse; 
+        width: 40%;
+        top : 20px;
+    
+        }
+        /* Div que da el formato del texto en el header */
+        .headerText {
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 10px; 
+        font-weight: bold; 
+        font-family:'Times New Roman', Times, serif;
+        }
+
+        /* contnedor del sidebar*/
+        .contenedor-layout {
+        display: grid;
+        grid-template-columns: 250px 1fr; 
+        min-height: 100vh; 
+        }
+
+        /* formato del sidebar */
+        .sidebar {
+        background-color: #1e293b; 
+        color: #ffffff;
+        padding: 20px;
+        position: sticky;
+        height: 100vh;
+        box-sizing: border-box; 
+        top: 0;
+        }
+
+        /* contenedor principal */
+        .contenido-principal {
+        background-color: #f8fafc; 
+        padding: 20px;
+        }
+
+        /* Formato del contenido de la pagina */
+        .content{
+            margin: 0 120px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 18px;
+          
+        }
+        /* formato del pie de pagina */
+        .footer{
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* formato del nivel de encabezado 2 */
+        h2 {
+            text-align: center;
+            font-style: italic;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+        }
+        /* formato del nivel de encabezado 4*/
+        h4 {
+            text-align: center;
+            font-style: italic;
+            font-family:'Times New Roman', Times, serif;        
+        }
+        /* Fuente principal */
+        .verdana{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        /* formato del nivel de encabezado 3 */
+        h3 {
+            font-weight: bold;
+        }
+
+        /* formato de la tabla */
+        .celda {
+        --bs-table-bg: #1e293b; 
+        --bs-table-color: #ffffff; 
+        }
+
+     
